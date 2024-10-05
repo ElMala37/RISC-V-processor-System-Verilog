@@ -7,7 +7,7 @@
 - **imm[11:0]**=valeur sur 12 bits (extention signée avec imm_gen pour l'avoir sur 32bits)
 - **opcode**=type d'instruction
 ## Version 1:
-Dans cette première version, j'ai choisi de faire simple. En effet l'unité de contrôle ne prendra en entrée des instructions ADD ou ADDI. C'est pourquoi l'ALU ne fait que l'opération "+" pour l'instant. Le banc de registre contient 32 registres de 32 bits.
+Dans cette première version, j'ai choisi de faire simple. En effet l'unité de contrôle ne prendra en entrée que des instructions ADD ou ADDI. C'est pourquoi l'ALU ne fait que l'opération "+" pour l'instant. Le banc de registre contient 32 registres de 32 bits.
 ### Plan du processeur:
 ![Plan du processeur](./plan_du_processeur.jpg)
 ### Testbench :
